@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carrinho {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(199, 199, 199);
+    padding-bottom: 20px;
+}
+
+.cont-carrinho {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cont-carrinho .img-produto .img {
+    width: 25%;
+    float: left; 
+    padding: 0 10px;
+    margin: 0 20px  20px 20px;
+    border: 2px solid rgb(199, 199, 199);
+}
+
+.cont-carrinho .dados-produto {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.cont-carrinho .dados-produto .nome-descricao {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.dados-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.frete-gratis {
+    display: none;
+    color: rgb(9, 107, 0);
+    justify-content: center;
+    margin: 0 30px 20px 30px;
+    height: 45px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(184, 255, 151);
+    background-color: rgb(184, 255, 151);
+}
+
+.frete-gratis.ativo{
+    display: flex;
+}
+
+.botao {
+    border-top: 2px solid rgb(199, 199, 199);
+}
+
+.botao-checkout {
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding: 20px 130px;
+    font-weight: 700;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid rgb(79, 152, 224);
+    background-color: rgb(79, 152, 224);
+}
